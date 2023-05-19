@@ -1,0 +1,45 @@
+.navbar {
+  padding: 1.8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  button {
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    background-color: #29323c;
+    color: white;
+    padding: 0.7rem 1.4rem;
+    border-radius: 15px;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      background-color: #29323cb9;
+    }
+
+    .btn_connecting {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    button {
+      font-size: 15px;
+    }
+  }
+}
